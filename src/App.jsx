@@ -114,7 +114,6 @@ export default function App() {
         return [
             "Pocket Piece — เพลงนี้เหมาะกับใจเธอตอนสอบ",
             songLine,
-            "👉 ดูเซ็ตให้กำลังใจ",
             linkLine,
         ]
             .filter(Boolean)
