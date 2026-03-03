@@ -43,7 +43,7 @@ const MESSAGES = {
     stuck: [
         "อ่านไม่เข้าไม่ใช่ขี้เกียจนะ แปลว่าเธอเหนื่อยมากแล้ว",
         "วันนี้เอาแค่ 1 หน้าให้จบก็ถือว่าชนะแล้ว",
-        "ถ้าสมองตัน ลองพัก 3 นาที แล้วค่อยกลับมาใหม่แบบใจเบา ๆ",
+        "ถ้าสมองตัน ลองพัก 3 นาที แล้วค่อยกลับมา.s,j",
     ],
     anxious: [
         "ใจเต้นแรงเพราะเธอใส่ใจกับมัน แค่นั้นก็เก่งแล้วนะ",
@@ -58,7 +58,7 @@ const MESSAGES = {
     boots: [
         "ยังอยู่ในเกม ยังไม่แพ้ เกมนี้ยังไม่จบ",
         "อย่าอ่อมตอนนี้ ไฟกำลังมา",
-        "เก่งมากแล้ว ขอให้ผ่านช่วงสอบได้ด้วยดี ",
+        "เก่งมาก ขอให้ผ่านช่วงสอบได้ด้วยดี ",
     ],
 };
 
@@ -275,7 +275,7 @@ const styles = {
         color: "#1f1f1f",
         display: "flex",
         justifyContent: "center",
-        padding: "32px 16px",
+        padding: "20px 12px",
         fontFamily:
             'ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans Thai", "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"',
     },
@@ -290,7 +290,7 @@ const styles = {
         fontSize: 12,
         letterSpacing: 0.4,
     },
-    h1: { margin: "12px 0 6px", fontSize: 30, lineHeight: 1.2 },
+    h1: { margin: "12px 0 6px", fontSize: 24, lineHeight: 1.3 },
     sub: { margin: 0, opacity: 0.85, fontSize: 16, lineHeight: 1.5 },
 
     card: {
@@ -312,7 +312,7 @@ const styles = {
     h2: { margin: "6px 0 14px", fontSize: 18 },
     grid: {
         display: "grid",
-        gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
+        gridTemplateColumns: "1fr",
         gap: 10,
     },
     choice: {
